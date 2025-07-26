@@ -24,9 +24,8 @@ Jupyter Notebook: Query Execution & Visualization
 **Outcome Summary**
 Out of 40 loan applications:
 
-     Status  TotalApplications
-0  Approved                 31
-1  Rejected                  9
+ Approved                 31
+ Rejected                  9
 
 **To Run This Project**
 Create MySQL database loan_system
