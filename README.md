@@ -27,6 +27,7 @@ Jupyter Notebook: Query Execution & Visualization
 Out of 40 loan applications:
 
  Approved                 31
+ 
  Rejected                  9
 
 **To Run This Project:**
@@ -35,7 +36,7 @@ Create MySQL database loan_system
 
 Execute schema.sql to build tables
 
-Insert data manually or via data_insert.sql
+Insert data manually or via dataset.sql
 
-Run notebooks/eligibility_query.ipynb to check prediction
+Run notebooks/loan_eligibility_check.ipynb to check prediction
 
