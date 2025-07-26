@@ -1,4 +1,4 @@
--- dataset
+-- datasets
 
 INSERT INTO Customers (CustomerID, Name, Age, Income) VALUES
 (1, 'Amit Sharma', 28, 520000.00),
@@ -42,7 +42,6 @@ INSERT INTO Customers (CustomerID, Name, Age, Income) VALUES
 (39, 'Mohit Kapoor', 28, 560000.00),
 (40, 'Bhavna Tripathi', 33, 680000.00);
 
-select * from Customers;
 
 INSERT INTO CreditHistory (HistoryID, CustomerID, CreditScore) VALUES
 (101, 5, 720),
@@ -86,7 +85,6 @@ INSERT INTO CreditHistory (HistoryID, CustomerID, CreditScore) VALUES
 (139, 39, 750),
 (140, 4, 690);
 
-select * from CreditHistory;
 
 INSERT INTO LoanApplications (LoanID, CustomerID, LoanAmount) VALUES
 (1, 1, 15000.00),
@@ -130,4 +128,3 @@ INSERT INTO LoanApplications (LoanID, CustomerID, LoanAmount) VALUES
 (39, 39, 62000.00),
 (40, 40, 35000.00);
 
-select * from LoanApplications;
