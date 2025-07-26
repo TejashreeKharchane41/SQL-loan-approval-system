@@ -2,7 +2,7 @@
 
 This project simulates a backend loan approval system using SQL and Python. It evaluates customer eligibility based on age, income, credit score, and requested loan amount—using dynamic SQL logic and integrated analysis via Jupyter Notebook.
 
-**Eligibility Criteria Logic**
+**Eligibility Criteria Logic:**
 
 Loan applications are evaluated using this SQL rule:
 
@@ -14,7 +14,7 @@ Loan applications are evaluated using this SQL rule:
  END
 ```
 
-**Technologies Used**
+**Technologies Used:**
 
 MySQL (Relational Schema, Joins, Foreign Keys)
 
@@ -22,14 +22,14 @@ Python: Pandas, MySQL Connector
 
 Jupyter Notebook: Query Execution & Visualization
 
-**Outcome Summary**
+**Outcome Summary:**
 
 Out of 40 loan applications:
 
  Approved                 31
  Rejected                  9
 
-**To Run This Project**
+**To Run This Project:**
 
 Create MySQL database loan_system
 
