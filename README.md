@@ -15,6 +15,7 @@ Loan applications are evaluated using this SQL rule:
 ```
 
 **Technologies Used**
+
 MySQL (Relational Schema, Joins, Foreign Keys)
 
 Python: Pandas, MySQL Connector
@@ -22,12 +23,14 @@ Python: Pandas, MySQL Connector
 Jupyter Notebook: Query Execution & Visualization
 
 **Outcome Summary**
+
 Out of 40 loan applications:
 
  Approved                 31
  Rejected                  9
 
 **To Run This Project**
+
 Create MySQL database loan_system
 
 Execute schema.sql to build tables
