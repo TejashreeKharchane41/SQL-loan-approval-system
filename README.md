@@ -1,14 +1,17 @@
 # SQL-loan-approval-system
 
-**Project Overview**
+**Project Overview:**
 
 This project simulates a backend loan approval system using SQL and Python, with ETL process implementation. It evaluates customer eligibility based on age, income, credit score, and requested loan amount—leveraging dynamic SQL logic and integrated analysis via Jupyter Notebook.
 
-**ETL Process Overview**
+**ETL Process Overview:**
 
 **Extract:**:	Raw customer and loan application data is pulled from CSV files and Excel sheets using Python (pandas).
+
 **Transform:**	Python scripts clean missing values, normalize column formats, and apply eligibility logic using SQL CASE statements.
+
 **Load:**	Transformed data is inserted into structured MySQL tables (Customers, LoanApplications, Approvals) via MySQL Connector.
+
 
 **Eligibility Criteria Logic:**
 
