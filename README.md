@@ -1,6 +1,6 @@
 # SQL-loan-approval-system
 
-##Project Overview:
+##🚀Project Overview:
 
 This project simulates a backend loan approval system using SQL and Python. It evaluates customer eligibility based on age, income, credit score, and requested loan amount—leveraging dynamic SQL logic and integrated analysis via Jupyter Notebook.
 
