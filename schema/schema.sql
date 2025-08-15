@@ -22,3 +22,11 @@ CREATE TABLE LoanApplications (
     Status VARCHAR(20),
     FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
 );
+
+CREATE TABLE EligibilityResults (
+    ResultID INT AUTO_INCREMENT PRIMARY KEY,
+    LoanID INT,
+    EligibilityStatus VARCHAR(10),
+    EvaluationDate DATETIME DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (LoanID) REFERENCES LoanApplications(LoanID)
+);
