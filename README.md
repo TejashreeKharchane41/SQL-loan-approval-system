@@ -1,4 +1,4 @@
-# SQL-loan-approval-system / Automated Loan Eligibility System
+# SQL Automated Loan Eligibility System
 
 ##🚀Project Overview:
 
